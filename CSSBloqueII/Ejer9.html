@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejercicio 9</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: gray;
+            margin-bottom: 50px;
+        }
+
+        .box1 {
+            box-shadow: 5px 5px 5px red;
+        }
+
+        .box2 {
+            box-shadow: 0px 0px 3px 1px red,
+                        5px 0px 5px 1px red,
+                        0px 5px 5px 1px red,
+                        5px 5px 5px 3px red;
+        }
+
+        .box3 {
+            box-shadow: inset 10px 10px 5px red, inset -1px -1px 5px red;
+        }
+
+        .box4 {
+            box-shadow: 0px 3px 0px blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="box box1"></div>
+    <div class="box box2"></div>
+    <div class="box box3"></div>
+    <div class="box box4"></div>
+</body>
+</html>
